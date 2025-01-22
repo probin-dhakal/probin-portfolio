@@ -54,9 +54,12 @@ const Contact = () => {
           subject,
           message,
         },
-        {
-          withCredentials: true,
-        }
+         {
+      headers: {
+        'Content-Type': 'application/json',
+      },
+       withCredentials: true,
+}
       );
 
       if (response.status === 200) {
