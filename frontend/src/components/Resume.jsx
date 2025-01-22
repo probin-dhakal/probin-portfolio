@@ -108,11 +108,11 @@ const Resume = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Frontend Skill</h2>
         </div>
         <div className="flex flex-col gap-6">
-          <SkillBar skill="HTML 5" percentage={100} />
-          <SkillBar skill="CSS" percentage={90} />
-          <SkillBar skill="Javascript" percentage={70} />
+          <SkillBar skill="HTML 5" percentage={95} />
+          <SkillBar skill="CSS" percentage={75} />
+          <SkillBar skill="Javascript" percentage={65} />
           <SkillBar skill="React" percentage={80} />
-          <SkillBar skill="Tailwind CSS" percentage={85} />
+          <SkillBar skill="Tailwind CSS" percentage={75} />
           <SkillBar skill="BootStrap" percentage={90} />
         </div>
       </div>
@@ -124,11 +124,11 @@ const Resume = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Backend Skill</h2>
         </div>
         <div className="flex flex-col gap-6">
-          <SkillBar skill="Node.js" percentage={70} />
-          <SkillBar skill="Express" percentage={85} />
-          <SkillBar skill="Mongodb" percentage={80} />
+          <SkillBar skill="Node.js" percentage={50} />
+          <SkillBar skill="Express" percentage={80} />
+          <SkillBar skill="Mongodb" percentage={50} />
           <SkillBar skill="Authentication & Authorization" percentage={90} />
-          <SkillBar skill="Deployment" percentage={80} />
+          <SkillBar skill="Deployment" percentage={70} />
         </div>
       </div>
       <div className="w-full lgl:w-1/2">
@@ -139,12 +139,12 @@ const Resume = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Others Skill</h2>
         </div>
         <div className="flex flex-col gap-6">
-          <SkillBar skill="C" percentage={70} />
-          <SkillBar skill="C++" percentage={90} />
-          <SkillBar skill="Generative AI" percentage={70} />
-          <SkillBar skill="Python" percentage={70} />
-          <SkillBar skill="Github" percentage={90} />
-          <SkillBar skill="Web Hosting" percentage={85
+          <SkillBar skill="C" percentage={50} />
+          <SkillBar skill="C++" percentage={85} />
+          <SkillBar skill="Generative AI" percentage={60} />
+          <SkillBar skill="Python" percentage={50} />
+          <SkillBar skill="Github" percentage={80} />
+          <SkillBar skill="Web Hosting" percentage={80
             
           } />
           <SkillBar skill="VS Code" percentage={80} />
