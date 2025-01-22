@@ -68,8 +68,7 @@ const Navbar = () => {
               <div>
                 <span className="text-2xl font-bold text-designColor">Logo</span>
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat.
+                  Welcome to my portfolio, showcasing creative projects and innovative solutions!
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
