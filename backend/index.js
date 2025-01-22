@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 8002;
 
 app.use(
   cors({
-    origin: [process.env.FRONTEND_URL],
+    origin: [process.env.FRONTEND_URL || "https://probin-portfolio.onrender.com"],
     methods: ["GET", "POST"],
     credentials: true,
   })
