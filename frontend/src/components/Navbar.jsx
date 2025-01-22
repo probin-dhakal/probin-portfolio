@@ -66,7 +66,7 @@ const Navbar = () => {
           <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-bodyColor p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div>
-                <span className="text-2xl font-bold text-designColor">Logo</span>
+                <span className="text-2xl font-bold text-designColor">Probin</span>
                 <p className="text-sm text-gray-400 mt-2">
                   Welcome to my portfolio, showcasing creative projects and innovative solutions!
                 </p>
