@@ -53,6 +53,9 @@ const Contact = () => {
           email,
           subject,
           message,
+        },
+        {
+          withCredentials: true,
         }
       );
 
@@ -99,7 +102,7 @@ const Contact = () => {
                 something amazing together.
               </p>
               <p className="text-base text-gray-400 flex items-center gap-2">
-                Phone: <span className="text-lightText">+91 7896041989</span>
+                Phone: <span className="text-lightText">+91 7896XXXXXX</span>
               </p>
               <p className="text-base text-gray-400 flex items-center gap-2">
                 Email:{" "}
