@@ -46,7 +46,7 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5002/api/send-message",
+        "https://probin-portfolio-backend.onrender.com/api/send-message",
         {
           name,
           phone,
