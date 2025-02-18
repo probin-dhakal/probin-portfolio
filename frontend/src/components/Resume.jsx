@@ -129,6 +129,7 @@ const Resume = () => {
           <SkillBar skill="Mongodb" percentage={50} />
           <SkillBar skill="Authentication & Authorization" percentage={90} />
           <SkillBar skill="Deployment" percentage={70} />
+          <SkillBar skill="Django" percentage={70} />
         </div>
       </div>
       <div className="w-full lgl:w-1/2">
